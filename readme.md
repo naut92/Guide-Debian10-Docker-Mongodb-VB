@@ -20,7 +20,7 @@ $ netstat -tulnp | grep ssh
 
 $ sudo reboot
 $ sudo poweroff
-$ ssh -p 2200 <user>@127.0.0.1
+$ ssh -p 2200 'user'@127.0.0.1
 $ sudo ifconfig
 
 $ dhclient (grep ip address 198.168.xxx.xxx)
@@ -43,11 +43,11 @@ VirtualBox 6.0.14
 
 MongoDB:
 
-$ docker-machine create -d generic --generic-ip-address=127.0.01 --generic-ssh-key $HOME/.ssh/id_rsa --generic-ssh-user <user> --generic-ssh-port 2200 <your machine name>
+$ docker-machine create -d generic --generic-ip-address=127.0.01 --generic-ssh-key $HOME/.ssh/id_rsa --generic-ssh-user 'user' --generic-ssh-port 2200 'your machine name'
 
-check if success: $ docker-machine env <your machine name>
+check if success: $ docker-machine env 'your machine name'
 
-connect: eval $(docker-machine env <your machine name>)
+connect: eval $(docker-machine env 'your machine name')
 
 $ docker pull mongo:latest
 
