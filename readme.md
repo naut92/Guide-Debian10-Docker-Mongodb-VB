@@ -39,11 +39,11 @@ $ dhclient (grep ip address 198.168.xxx.xxx)
 
 $ ip a
 
-nano /etc/network/interfaces: 
+$ sudo nano /etc/network/interfaces: 
 
 allow-hotplug enp0s3
 
-'#iface enp0s3 inet dhcp
+'#iface enp0s3 inet dhcp 
 
 auto enp0s8
 
