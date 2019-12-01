@@ -58,6 +58,7 @@ $ docker-machine create -d generic --generic-ip-address=127.0.01 --generic-ssh-k
 check if success: $ docker-machine env 'your machine name'
 
 connect inside your IDE: eval $(docker-machine env 'your machine name')
+https://docs.docker.com/machine/drivers/generic/
 
 $ docker pull mongo:latest
 
