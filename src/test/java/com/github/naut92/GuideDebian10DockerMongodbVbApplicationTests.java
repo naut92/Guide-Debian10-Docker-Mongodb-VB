@@ -1,4 +1,4 @@
-package com.github.naut92.Guide.Debian10.Docker.Mongodb.VB;
+package com.github.naut92;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

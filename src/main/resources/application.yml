@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      database: organisation_db
+      host: 127.0.0.1
+      port: 37017 #47017
+
+server:
+  port: 8088
