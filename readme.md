@@ -39,6 +39,16 @@ netmask 255.255.255.0
 
 VirtualBox 6.0.14
 
+Settings->Network->Adapter1->Advanced->Port Forwarding->
+
+| Name | Protocol | Host IP | Host Port | Guest IP | Guest Port|
+
+| ssh  | TCP      |127.0.0.1| 2200      | 10.0.2.15| 22        |
+
+|mongo | TCP      |127.0.0.1| 47017     | 0.0.0.0  | 27017     |
+
+
+Settings->Network->Adapter2->Enable Network Adapter->Name->vboxname0
 
 
 MongoDB:
