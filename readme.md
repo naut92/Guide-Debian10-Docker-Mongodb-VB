@@ -74,7 +74,7 @@ MongoDB:
 
 $ docker-machine create -d generic --generic-ip-address=127.0.01 --generic-ssh-key $HOME/.ssh/id_rsa --generic-ssh-user 'user' --generic-ssh-port 2200 'your machine name'
 
-check if success: $ docker-machine env 'your machine name'
+check if success: $ eval $(docker-machine env 'your machine name')
 
 connect inside your IDE: eval $(docker-machine env 'your machine name')
 https://docs.docker.com/machine/drivers/generic/
