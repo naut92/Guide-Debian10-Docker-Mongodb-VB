@@ -1,6 +1,6 @@
 Guide
 
-Dedian 10.2 Baster
+Dedian 10.2 Buster
 
 image: debian-10.2.0-amd64-netinst.iso
 
@@ -80,6 +80,8 @@ connect inside your IDE: eval $(docker-machine env 'your machine name')
 https://docs.docker.com/machine/drivers/generic/
 
 $ docker pull mongo:latest
+
+$ docker volume create --name=mongodb_data_volume
 
 $ docker-compose up
 

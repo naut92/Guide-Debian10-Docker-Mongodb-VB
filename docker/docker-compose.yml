@@ -2,11 +2,11 @@ version: '3.4'
 services:
   database:
     image: 'mongo'
-    container_name: 'parking-deb-mongo'
+    container_name: 'organisation-deb-mongo'
     environment:
-      - MONGO_INIT_DATABASE=parking_db
-      - MONGO_INIT_ROOT_USERNAME=parking-app
-      - MONGO_INIT_ROOT_PASSWORD=parking-app
+      - MONGO_INIT_DATABASE=organisation_db
+      - MONGO_INIT_ROOT_USERNAME=organisation
+      - MONGO_INIT_ROOT_PASSWORD=organisation
     volumes:
       - ./init-mongo.json:/docker-entrypoint-initdb.d/init-mongo.json:ro
       - ./mongo-volume:/data/db

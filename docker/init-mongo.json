@@ -1,0 +1,11 @@
+{
+    "user": "organisation",
+    "pwd": "organisation",
+    "roles":
+    [
+        {
+            "role": "readWrite",
+            "db": "organisation_db"
+        }
+    ]
+}
