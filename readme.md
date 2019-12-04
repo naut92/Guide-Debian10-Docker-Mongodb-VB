@@ -1,6 +1,6 @@
 Guide
 
-Dedian 10.2 Buster
+Debian 10.2 Buster
 
 image: debian-10.2.0-amd64-netinst.iso
 
